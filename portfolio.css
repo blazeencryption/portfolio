@@ -426,8 +426,9 @@ hr {
     #second-wrap {
         width:90%;
         height:300px;
-        background-size:400px;
+        background-size:450px;
         background-position-x:center;
+        background-position-y: -30px;
     }
     .layer { 
         border-bottom-left-radius:37px;
@@ -476,6 +477,9 @@ hr {
     #menu {
         padding:10px 20px;
     }
+    #second-wrap {
+        background-position-y:0;
+    }
     #theme, #heading-name {
         padding:0px;
         font-size:17px;
@@ -489,7 +493,7 @@ hr {
     }
     #contact-heading {
         font-size:28px;
-        width:50%;
+        width:35%;
     }
     #contact-ways {
         font-size:12px;
