@@ -478,7 +478,7 @@ hr {
         padding:10px 20px;
     }
     #second-wrap {
-        background-position-y:unset;
+        background-position-y:20px;
     }
     #theme, #heading-name {
         padding:0px;
