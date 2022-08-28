@@ -487,5 +487,12 @@ hr {
     #project-heading {
         font-size:70px;
     }
+    #contact-heading {
+        font-size:28px;
+        width:50%;
+    }
+    #contact-ways {
+        font-size:12px;
+    }
     
 }
