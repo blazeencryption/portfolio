@@ -479,6 +479,7 @@ hr {
     }
     #second-wrap {
         background-size:400px;
+        background-position-y:50px;
     }
     #theme, #heading-name {
         padding:0px;
