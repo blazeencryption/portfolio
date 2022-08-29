@@ -33,7 +33,7 @@ function blacktheme() {
     document.documentElement.style.setProperty('--color5', 'gray');
     document.documentElement.style.setProperty('--color6', 'rgb(30,30,30)');
     document.documentElement.style.setProperty('--color7', 'black');
-    document.documentElement.style.setProperty('--name', 'rgb(100, 100, 100)');
+    document.documentElement.style.setProperty('--name', 'rgb(100,100,100)');
     document.documentElement.style.setProperty('--color8', 'rgb(50,50,50)');
     document.documentElement.style.setProperty('--color9', 'rgb(10,10,10)');
     document.getElementById("me").style.display="none";
@@ -57,7 +57,7 @@ function oceantheme() {
     document.getElementById("me").style.display="block";
     document.getElementById("me").style.position="static";
 }
-window.onload = function() {
+function loadtheme() {
     if (localStorage.getItem("theme") == "ocean") {
         oceantheme();
         document.getElementById("theme-text").innerHTML="B&W Theme";
@@ -74,4 +74,6 @@ window.onload = function() {
         document.getElementById("me").style.position="absolute";
     }
 }
+document.addEventListener("DOMContentLoaded", loadtheme)
+
 //It can switch theme and stay the way it was left! I'm sooooooo glaaaaaaaaaad finallyyyyyyyyyyyyyyy
