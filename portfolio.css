@@ -389,9 +389,6 @@ hr {
     #contact-ways {
         font-size:16px;
     }
-    #experience-heading, #about {
-        font-size:43px;
-    }
 }
 @media (max-width:600px) {
     #contact-heading {
@@ -488,9 +485,6 @@ hr {
     }
     #menu-display {
         margin-top:60px;
-    }
-    #about, #experience-heading {
-        font-size:30px;
     }
     #experience-par, #about-me-par {
         font-size:16px;
