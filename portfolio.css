@@ -489,6 +489,9 @@ hr {
     #menu-display {
         margin-top:60px;
     }
+    #about-me, #experience-heading {
+        font-size:35px;
+    }
     #experience-par, #about-me-par {
         font-size:16px;
     }
