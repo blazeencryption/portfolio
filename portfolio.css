@@ -9,7 +9,6 @@
     --color8: rgb(0, 50, 100);
     --color9: rgb(0,30,75);
     --name:#0396a6;
-
 }
 html,body {
     margin:0px;
@@ -338,7 +337,7 @@ hr {
         width:100%;
     }
     .gif-wrap {
-        margin: 100px auto;
+        margin: 40px auto;
     }
     #second-section {
         order:2;
@@ -349,8 +348,6 @@ hr {
     #contact-heading {
         font-size:85px;
         width:55%;
-    }
-    #contact-ways {
     }
 }
 @media (max-width:900px) {
@@ -391,7 +388,10 @@ hr {
     }
     #contact-ways {
         font-size:16px;
-    }  
+    }
+    #experience-heading, #about-me {
+        font-size:43px;
+    }
 }
 @media (max-width:600px) {
     #contact-heading {
@@ -474,9 +474,6 @@ hr {
     }  
 }
 @media (max-width:470px) {
-    #experience-par, #about-me-par {
-        font-size:16px;
-    }
     #menu {
         padding:10px 20px;
     }
@@ -491,6 +488,9 @@ hr {
     }
     #menu-display {
         margin-top:60px;
+    }
+    #experience-par, #about-me-par {
+        font-size:16px;
     }
     #project-heading {
         font-size:70px;
