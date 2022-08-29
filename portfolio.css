@@ -389,7 +389,7 @@ hr {
     #contact-ways {
         font-size:16px;
     }
-    #experience-heading, #about-me {
+    #experience-heading, #about {
         font-size:43px;
     }
 }
@@ -489,8 +489,8 @@ hr {
     #menu-display {
         margin-top:60px;
     }
-    #about-me, #experience-heading {
-        font-size:32px;
+    #about, #experience-heading {
+        font-size:30px;
     }
     #experience-par, #about-me-par {
         font-size:16px;
