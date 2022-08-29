@@ -475,7 +475,7 @@ hr {
 }
 @media (max-width:470px) {
     #experience-par, #about-me-par {
-        font-size:16px;
+        font-size:14px;
     }
     #menu {
         padding:10px 20px;
