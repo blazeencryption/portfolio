@@ -1,2 +1,0 @@
--My name is Ali Sleiman and I'm ' 16 years old Lebanese web developer. I'm an OBK student and a Codebrave scholar. My main focus is to improve my skills, be more productive, and reach my maximum potential. I'm into programming, typing, and also callisthenics.
--I got hooked to programming when I turned 15, I started off learning Python on Youtube tutorials. After that, I got into CodeBrave's scholarship program where I learnt more Python and programming fundamentals and then moved to front-end web-development. I currently have a good grip on Python, html, CSS, Javascript.
