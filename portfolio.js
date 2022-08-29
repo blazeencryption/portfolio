@@ -33,7 +33,7 @@ function blacktheme() {
     document.documentElement.style.setProperty('--color5', 'gray');
     document.documentElement.style.setProperty('--color6', 'rgb(30,30,30)');
     document.documentElement.style.setProperty('--color7', 'black');
-    document.documentElement.style.setProperty('--name', 'rgb(200, 50, 50)');
+    document.documentElement.style.setProperty('--name', 'rgb(100, 100, 100)');
     document.documentElement.style.setProperty('--color8', 'rgb(50,50,50)');
     document.documentElement.style.setProperty('--color9', 'rgb(10,10,10)');
     document.getElementById("me").style.display="none";
