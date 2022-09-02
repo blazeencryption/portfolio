@@ -37,7 +37,6 @@ nav {
     z-index:50;
     color:var(--color7);
 }
-nav ul a.active,
 nav a:hover {
     background-color: var(--color7);
     color: white;
