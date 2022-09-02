@@ -12,10 +12,11 @@
         <nav>
             <a href="index.html"><h1 id="heading-name">Ali Sleiman</h1></a>
             <ul>
-                <a href="#about-me"><li>About me</li></a>
-                <a href="#experience"><li>Experience</li></a>
-                <a href="#projects"><li>Projects</li></a>
-                <a href="#contact"><li>Contact</li></a>
+                <a class="main-section active" href="#main-section"><li>Home</li></a>
+                <a class="about-me" href="#about-me"><li>About me</li></a>
+                <a class="experience" href="#experience"><li>Experience</li></a>
+                <a class="projects" href="#projects"><li>Projects</li></a>
+                
             </ul>
             <a onclick="openmenu()" id="menu"><i id="menu-logo" class="fa-solid fa-bars"></i></a>
             <a onclick="themefunction()" id="theme"><p id="theme-text">B&W Theme</p></a>
@@ -28,83 +29,85 @@
                 <a href="#contact"><li>Contact</li></a>
             </ul>
         </div>
-        <div id="main-section">
-            <div id="img-wrap">
-                <img id="me" src="images/me.jpeg">
-                <img id="dark-me" src="images/dark-me.jpeg">
-            </div>  
-            <div id="introduction-wrap">
-                <div id="introduction">
+        <div class="container">
+            <section id="main-section" class="page">
+                <div id="img-wrap">
+                    <img id="me" src="images/me.jpeg">
+                    <img id="dark-me" src="images/dark-me.jpeg">
+                </div>  
+                <div id="introduction-wrap">
+                    <div id="introduction">
+                        
+                        <p id="hello">Hello There!</p>
+                        <h1 id="name">I'm <span class="im-name">Ali Sleiman</span></h1>
+                        <p id="description">I'm a web developer and this is my portfolio. Scroll down to learn more about me, my experience and my projects!</p>
+                        
+                    </div>
                     
-                    <p id="hello">Hello There!</p>
-                    <h1 id="name">I'm <span class="im-name">Ali Sleiman</span></h1>
-                    <p id="description">I'm a web developer and this is my portfolio. Scroll down to learn more about me, my experience and my projects!</p>
-                    
+                </div>
+            </section>
+            <section id="about-me" class="page">
+                <div id="about-me-text">
+                    <h1 id="about">About me</h1>
+                    <p id="about-me-par">My name is Ali, I'm a Codebrave scholar and I'm a Lebanese web developer. I'm an ambitious and a competitive person, I always work on improving myself. I try my best to be as productive as possible and to reach my maximum potential. I'm into programming, typing, and also callisthenics.</p>
+                </div>
+                <div class="gif-section">
+                    <div id="first-wrap" class="gif-wrap">
+                        <div id="first-layer" class="layer"></div>
+                    </div>
                 </div>
                 
-            </div>
-        </div>
-        <div id="about-me">
-            <div id="about-me-text">
-                <h1 id="about">About me</h1>
-                <p id="about-me-par">My name is Ali Sleiman and I'm a 16 years old Lebanese web developer. I'm an OBK student and a Codebrave scholar. My main focus is to improve my skills, be more productive, and reach my maximum potential. I'm into programming, typing, and also callisthenics.</p>
-            </div>
-            <div class="gif-section">
-                <div id="first-wrap" class="gif-wrap">
-                    <div id="first-layer" class="layer"></div>
-                </div>
-            </div>
-            
-        </div>
-        <div id="experience">
-            <div id="second-section" class="gif-section">
-                <div id="second-wrap" class="gif-wrap">
-                    <div id="second-layer"class="layer"></div>
-                </div>
-            </div>
-            <div id="experience-text">
-                <h1 id="experience-heading">Experience & Journey:</h1>
-                <p id="experience-par">I got hooked to programming when I turned 15, I started off learning Python on Youtube tutorials. After that, I got into CodeBrave's scholarship program where I learnt more Python and programming fundamentals and then moved to front-end web-development. I currently have a good grip on Python, html, CSS, and some Javascript.</p>
-            </div>
-        </div>
-        <div id="projects">
-           <h1 id="project-heading">Projects</h1>
-            <div id="project-section">
-                <div id="first-project" class="both-projects">
-                    <div id="showcase1" class="showcase">
-                        <div class="project-gif" id="guide-gif"></div>
-                    </div>
-                    <div class="project-text-wrap">
-                        <p id="guide-text" class="project-text">Typing-Guide helps out users with their typing journey. It asks the user about their level of experience and suggests websites and tips depending on their level of experience.</p>
-                        </p>
+            </section>
+            <section id="experience" class="page">
+                <div id="second-section" class="gif-section">
+                    <div id="second-wrap" class="gif-wrap">
+                        <div id="second-layer"class="layer"></div>
                     </div>
                 </div>
-                <div id="second-project" class="both-projects">
-                    <div id="showcase2" class="showcase">
-                        <div class="project-gif" id="chess-gif"></div>
-                    </div>
-                    <div class="project-text-wrap">
-                        <p id="chess-text" class="project-text">Chess-copy is a simple and minor project. It's not functional but the goal of it is to be an identical copy of the world's best chess website.</p>
+                <div id="experience-text">
+                    <h1 id="experience-heading">Experience & Journey:</h1>
+                    <p id="experience-par">I got hooked to programming when I turned 15, I started off learning Python on Youtube tutorials. After that, I got into CodeBrave's scholarship program where I learnt more Python and programming fundamentals and then moved to front-end web-development. I currently have a good grip on Python, html, CSS, and some Javascript.</p>
+                </div>
+            </section>
+            <section id="projects" class="page">
+                <h1 id="project-heading">Projects</h1>
+                    <div id="project-section">
+                        <div id="first-project" class="both-projects">
+                            <div id="showcase1" class="showcase">
+                                <div class="project-gif" id="guide-gif"></div>
+                            </div>
+                            <div class="project-text-wrap">
+                                <p id="guide-text" class="project-text">Typing-Guide helps out users with their typing journey. It asks the user about their level of experience and suggests websites and tips depending on their level of experience.</p>
+                                </p>
+                            </div>
                         </div>
+                        <div id="second-project" class="both-projects">
+                            <div id="showcase2" class="showcase">
+                                <div class="project-gif" id="chess-gif"></div>
+                            </div>
+                            <div class="project-text-wrap">
+                                <p id="chess-text" class="project-text">Chess-copy is a simple and minor project. It's not functional but the goal of it is to be an identical copy of the world's best chess website.</p>
+                                </div>
+                        </div>
+                    </div>
+             </section>
+            <section id="contact">
+                <div id="contact-heading">Contact</div>
+                <div id="contact-ways">
+                    <div id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                        <span class="contact-text"> --- </span>
+                    </div><hr>
+                    <div id="phone">
+                        <i class="fa fa-phone"></i>
+                        <span class="contact-text"> --- </span>
+                    </div><hr>
+                    <div id="mail">
+                        <i class="fa fa-envelope"></i>
+                        <span class="contact-text">ali.moh.sleiman@gmail.com</span>
+                    </div>
                 </div>
-           </div>
-        </div>
-        <div id="contact">
-            <div id="contact-heading">Contact</div>
-            <div id="contact-ways">
-                <div id="instagram">
-                    <i class="fa-brands fa-instagram"></i>
-                    <span class="contact-text">alii_sleimann</span>
-                </div><hr>
-                <div id="phone">
-                    <i class="fa fa-phone"></i>
-                    <span class="contact-text">+961 76 304 953</span>
-                </div><hr>
-                <div id="mail">
-                    <i class="fa fa-envelope"></i>
-                    <span class="contact-text">ali.moh.sleiman@gmail.com</span>
-                </div>
-            </div>
+            </section>
         </div>
     </body>
 </html>
