@@ -3,6 +3,7 @@ var menu_condition = "closed";
 if (!localStorage.getItem("theme")) {
     localStorage.setItem("theme","ocean");
 }
+
 function openmenu() {
     if (menu_condition==="closed"){
         document.getElementById("menu-logo").className="fa-solid fa-xmark";
@@ -75,5 +76,4 @@ function loadtheme() {
     }
 }
 document.addEventListener("DOMContentLoaded", loadtheme)
-
 //It can switch theme and stay the way it was left! I'm sooooooo glaaaaaaaaaad finallyyyyyyyyyyyyyyy
