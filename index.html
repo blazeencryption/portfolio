@@ -7,26 +7,27 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
         <script src="portfolio.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
     </head>
     <body>
         <nav>
-            <a href="index.html"><h1 id="heading-name">Ali Sleiman</h1></a>
+            <a class="nav-hover" href="index.html"><h1 id="heading-name">Ali Sleiman</h1></a>
             <ul>
-                <a class="main-section" href="#main-section"><li>Home</li></a>
-                <a class="about-me" href="#about-me"><li>About me</li></a>
-                <a class="experience" href="#experience"><li>Experience</li></a>
-                <a class="projects" href="#projects"><li>Projects</li></a>
+                <a class="main-section underline" href="#main-section"><li>Home</li></a>
+                <a class="about-me underline" href="#about-me"><li>About me</li></a>
+                <a class="experience underline" href="#experience"><li>Experience</li></a>
+                <a class="projects underline" href="#projects"><li>Projects</li></a>
                 
             </ul>
-            <a onclick="openmenu()" id="menu"><i id="menu-logo" class="fa-solid fa-bars"></i></a>
-            <a onclick="themefunction()" id="theme"><p id="theme-text">B&W Theme</p></a>
+            <a class="nav-hover" onclick="openmenu()" id="menu"><i id="menu-logo" class="fa-solid fa-bars"></i></a>
+            <a class="nav-hover" onclick="themefunction()" id="theme"><p id="theme-text">B&W Theme</p></a>
         </nav>
         <div id="menu-display">
             <ul>
+                <a href="#main-section"><li>Home</li></a>
                 <a href="#about-me"><li>About me</li></a><hr class="break">
                 <a href="#experience"><li>Experience</li></a><hr class="break">
                 <a href="#projects"><li>Projects</li></a><hr class="break">
-                <a href="#contact"><li>Contact</li></a>
             </ul>
         </div>
         <div class="container">
@@ -39,7 +40,7 @@
                     <div id="introduction">
                         
                         <p id="hello">Hello There!</p>
-                        <h1 id="name">I'm <span class="im-name">Ali Sleiman</span></h1>
+                        <h1 class="text-hover underline" id="name">I'm <span class="im-name">Ali Sleiman</span></h1>
                         <p id="description">I'm a web developer and this is my portfolio. Scroll down to learn more about me, my experience and my projects!</p>
                         
                     </div>
@@ -48,7 +49,7 @@
             </section>
             <section id="about-me" class="page">
                 <div id="about-me-text">
-                    <h1 id="about">About me</h1>
+                    <div class="parent"><h1 class="underline" id="about">About me</h1></div>
                     <p id="about-me-par">My name is Ali, I'm a Codebrave scholar and I'm a Lebanese web developer. I'm an ambitious and a competitive person, I always work on improving myself. I try my best to be as productive as possible and to reach my maximum potential. I'm into programming, typing, and also callisthenics.</p>
                 </div>
                 <div class="gif-section">
@@ -65,12 +66,12 @@
                     </div>
                 </div>
                 <div id="experience-text">
-                    <h1 id="experience-heading">Experience & Journey:</h1>
+                    <div class="parent"><h1 class="underline" id="experience-heading">Experience</h1></div>
                     <p id="experience-par">I got hooked to programming when I turned 15, I started off learning Python on Youtube tutorials. After that, I got into CodeBrave's scholarship program where I learnt more Python and programming fundamentals and then moved to front-end web-development. I currently have a good grip on Python, html, CSS, and some Javascript.</p>
                 </div>
             </section>
             <section id="projects" class="page">
-                <h1 id="project-heading">Projects</h1>
+                <h1 class="text-hover2" id="project-heading">Projects</h1>
                     <div id="project-section">
                         <div id="first-project" class="both-projects">
                             <div id="showcase1" class="showcase">
