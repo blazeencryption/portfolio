@@ -75,5 +75,7 @@ function loadtheme() {
         document.getElementById("me").style.position="absolute";
     }
 }
+
+  
 document.addEventListener("DOMContentLoaded", loadtheme)
 //It can switch theme and stay the way it was left! I'm sooooooo glaaaaaaaaaad finallyyyyyyyyyyyyyyy
